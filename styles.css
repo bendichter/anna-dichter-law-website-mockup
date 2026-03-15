@@ -223,7 +223,7 @@ strong {
 
 .logo-meritlee {
     font-family: 'Bodoni Moda', serif;
-    font-size: 34px;
+    font-size: 39px;
     font-weight: 400;
     color: #f0ede6;
     letter-spacing: 0.08em;
@@ -245,7 +245,7 @@ strong {
 
 .logo-law {
     font-family: 'Bodoni Moda', serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #5a8a6a;
     letter-spacing: 0.55em;
@@ -254,7 +254,7 @@ strong {
 }
 
 .logo-line {
-    width: 91px;
+    width: 105px;
     height: 1px;
     background: linear-gradient(to right, #c9a96e, #e8c98a);
     margin-left: 8px;
@@ -262,16 +262,16 @@ strong {
 
 /* Footer logo */
 .logo-footer .logo-meritlee {
-    font-size: 38px;
+    font-size: 44px;
     color: var(--white);
 }
 
 .logo-footer .logo-law {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .logo-footer .logo-line {
-    width: 106px;
+    width: 122px;
 }
 
 .logo-footer {
