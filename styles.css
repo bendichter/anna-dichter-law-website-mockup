@@ -279,9 +279,14 @@ strong {
 }
 
 /* Thank you page logo */
+.thank-you-logo {
+    align-items: center;
+}
+
 .thank-you-logo .logo-meritlee {
     font-size: 48px;
     color: var(--white);
+    transform-origin: center;
 }
 
 .thank-you-logo .logo-law {
@@ -729,6 +734,15 @@ body {
 /* Services Section */
 .services {
     background: var(--white);
+}
+
+.services-description {
+    font-size: 1.125rem;
+    color: var(--gray-700);
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 48px;
+    line-height: 1.7;
 }
 
 .services-intro {
