@@ -396,7 +396,7 @@ strong {
 
 /* Google Translate Widget */
 .translate-widget {
-    margin-left: 16px;
+    margin-left: 0;
 }
 
 .translate-widget .goog-te-gadget {
@@ -1662,9 +1662,8 @@ body {
         color: var(--gold-400) !important;
     }
 
-    .translate-widget {
-        margin-left: 0;
-        order: -1;
+    .translate-menu-item {
+        margin-top: 16px;
     }
 
     .hero-cards {
