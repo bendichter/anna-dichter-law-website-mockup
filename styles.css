@@ -221,7 +221,7 @@ strong {
 }
 
 .logo-img {
-    height: 48px;
+    height: 58px;
     width: auto;
     transition: opacity var(--transition-base);
 }
@@ -248,7 +248,7 @@ strong {
 }
 
 .logo-img-footer {
-    height: 100px;
+    height: 120px;
     width: auto;
 }
 
