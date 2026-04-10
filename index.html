@@ -485,10 +485,110 @@
                 <p class="footer-contact-line">MeritLee Law | Fairfax, Virginia | <a href="tel:2026705033">202-670-5033</a> | <a href="mailto:adichter@meritleelaw.com">adichter@meritleelaw.com</a></p>
                 <p>&copy; 2026 MeritLee Law. All rights reserved.</p>
                 <p class="disclaimer">MeritLee Law is licensed in the District of Columbia and New Jersey. Virginia admission pending. This website is for informational purposes only and does not constitute legal advice. The information on this site does not create an attorney-client relationship. Results described on this site do not guarantee similar outcomes in future matters. Attorney advertising.</p>
-                <p class="disclaimer">Privacy Policy and Terms of Use available upon request.</p>
+                <p class="disclaimer footer-legal-links">
+                    <a href="#" onclick="event.preventDefault();document.getElementById('pp').classList.add('open')">Privacy Policy</a> · <a href="#" onclick="event.preventDefault();document.getElementById('tu').classList.add('open')">Terms of Use</a>
+                </p>
             </div>
         </div>
     </footer>
+
+    <!-- Privacy Policy Modal -->
+    <div class="legal-overlay" id="pp" onclick="if(event.target===this)this.classList.remove('open')">
+        <div class="legal-modal">
+            <div class="legal-modal-head">
+                <div>
+                    <h2>Privacy Policy</h2>
+                    <div class="legal-eff">Effective: April 9, 2026 · MeritLee Law</div>
+                </div>
+                <button class="legal-close-btn" onclick="document.getElementById('pp').classList.remove('open')">Close</button>
+            </div>
+            <div class="legal-modal-body">
+                <div class="legal-notice"><p>This website is operated by MeritLee Law (Anna Dichter, Principal Attorney). Submitting information through this site does not create an attorney-client relationship.</p></div>
+
+                <h3>Information MeritLee Law collects</h3>
+                <p>When you use the contact form on this website, MeritLee Law collects the name, email address, phone number, and message content you voluntarily provide. MeritLee Law does not use cookies for tracking, run advertising networks, or collect any information automatically beyond standard server logs (IP address, browser type, pages visited) retained solely for security and operational purposes.</p>
+
+                <h3>How MeritLee Law uses your information</h3>
+                <ul>
+                    <li>To respond to your inquiry and determine whether MeritLee Law may be able to assist you.</li>
+                    <li>To fulfill any legal or ethical obligations that arise from your communication.</li>
+                    <li>MeritLee Law does not sell, rent, or share your personal information with third parties for marketing purposes.</li>
+                </ul>
+
+                <h3>Confidentiality notice</h3>
+                <p>Do not submit confidential, privileged, or sensitive information through this website. No attorney-client relationship is formed until a written engagement agreement is signed by both parties. Information submitted before such an agreement may not be protected by attorney-client privilege.</p>
+
+                <h3>Third-party services</h3>
+                <p>This site uses Cal.com for scheduling and LinkedIn for professional networking. Those platforms operate under their own privacy policies. MeritLee Law has no control over and assumes no responsibility for their practices.</p>
+
+                <h3>Data retention</h3>
+                <p>Inquiry submissions are retained only as long as necessary to respond to your request and comply with applicable professional responsibility rules, after which they are securely deleted.</p>
+
+                <h3>Your rights</h3>
+                <p>You may request access to, correction of, or deletion of personal information you have submitted by contacting MeritLee Law at <strong>adichter@meritleelaw.com</strong>. MeritLee Law will respond within a reasonable time.</p>
+
+                <h3>Contact</h3>
+                <p>MeritLee Law · adichter@meritleelaw.com · 202-670-5033</p>
+
+                <h3>Updates to this policy</h3>
+                <p>MeritLee Law may update this Privacy Policy as needed. Updates will be posted on this page with a revised effective date.</p>
+            </div>
+            <div class="legal-modal-foot">
+                <p>Questions? Contact adichter@meritleelaw.com</p>
+                <a href="#" onclick="event.preventDefault();document.getElementById('pp').classList.remove('open');document.getElementById('tu').classList.add('open')">View Terms of Use &rarr;</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms of Use Modal -->
+    <div class="legal-overlay" id="tu" onclick="if(event.target===this)this.classList.remove('open')">
+        <div class="legal-modal">
+            <div class="legal-modal-head">
+                <div>
+                    <h2>Terms of Use</h2>
+                    <div class="legal-eff">Effective: April 9, 2026 · MeritLee Law</div>
+                </div>
+                <button class="legal-close-btn" onclick="document.getElementById('tu').classList.remove('open')">Close</button>
+            </div>
+            <div class="legal-modal-body">
+                <div class="legal-notice"><p>By accessing or using this website, you agree to the following Terms of Use. If you do not agree, please do not use this site.</p></div>
+
+                <h3>No legal advice</h3>
+                <p>The content on this website is provided for general informational purposes only and does not constitute legal advice. No attorney-client relationship is created by visiting this site, reading its content, or submitting a contact form. You should not act or refrain from acting based on information on this site without first seeking advice from a licensed attorney.</p>
+
+                <h3>No attorney-client relationship</h3>
+                <p>An attorney-client relationship with MeritLee Law is formed only upon execution of a written engagement agreement signed by both you and Anna Dichter. Prior to that agreement, any information you transmit is not protected by attorney-client privilege.</p>
+
+                <h3>Licensure and federal practice</h3>
+                <p>Anna Dichter is licensed to practice law in the District of Columbia and New Jersey, with Virginia admission pending. MeritLee Law focuses on federal litigation and appears in federal courts throughout the country. Licensure in a particular state does not limit the ability to practice in federal courts in that or any other jurisdiction. Nothing on this website constitutes an offer to provide state court representation in jurisdictions where MeritLee Law is not licensed.</p>
+
+                <h3>No guarantees</h3>
+                <p>Past results described on this website do not guarantee or predict similar outcomes in future matters. Every case is unique and depends on its own facts, applicable law, and many other factors.</p>
+
+                <h3>Intellectual property</h3>
+                <p>All content on this website &mdash; including text, images, and design &mdash; is the property of MeritLee Law and may not be copied, reproduced, or distributed without prior written consent, except for brief quotations with attribution for non-commercial purposes.</p>
+
+                <h3>Third-party links</h3>
+                <p>This website may contain links to third-party websites (including Cal.com and LinkedIn). MeritLee Law is not responsible for the content, accuracy, or privacy practices of those sites.</p>
+
+                <h3>Limitation of liability</h3>
+                <p>To the fullest extent permitted by law, MeritLee Law shall not be liable for any damages arising from your use of or reliance on information contained on this website.</p>
+
+                <h3>Governing law</h3>
+                <p>These Terms of Use are governed by the laws of the Commonwealth of Virginia, without regard to its conflict-of-law provisions.</p>
+
+                <h3>Attorney advertising</h3>
+                <p>This website constitutes attorney advertising under applicable professional conduct rules. Prior results do not guarantee a similar outcome.</p>
+
+                <h3>Updates to these terms</h3>
+                <p>MeritLee Law may update these Terms of Use as needed. Continued use of this website after updates are posted constitutes acceptance of the revised terms.</p>
+            </div>
+            <div class="legal-modal-foot">
+                <p>Questions? Contact adichter@meritleelaw.com</p>
+                <a href="#" onclick="event.preventDefault();document.getElementById('tu').classList.remove('open');document.getElementById('pp').classList.add('open')">View Privacy Policy &rarr;</a>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
